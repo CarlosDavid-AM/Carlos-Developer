@@ -5,6 +5,7 @@ import user from "./img/user.jpg"
 import proyectos from "./img/Proyectos.png"
 import conosimientos from "./img/Conosimientos.png"
 import formacion from "./img/Formacion.png"
+import ListaCrips from "./component/atm/indexComponent/ListaCrips"
 
 function App() {
   return (
@@ -73,6 +74,8 @@ function App() {
               </div>
           </div>
       </div>
+
+      <ListaCrips />
     </>
   )
 }
