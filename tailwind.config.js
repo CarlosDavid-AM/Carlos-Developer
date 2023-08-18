@@ -8,11 +8,12 @@ export default {
     container: {
       padding: "1.16rem"
     },
-    extend: {},
-    colors: {
-      "do-orange-mediun": "#E0B125",
-      "neutral-text": "#73838C",
-    }
+    extend: {
+      colors: {
+        "do-orange-mediun": "#E0B125",
+        "neutral-text": "#73838C",
+      }
+    },
   },
   plugins: [],
 }
