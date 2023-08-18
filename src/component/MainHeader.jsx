@@ -19,7 +19,6 @@ const MainHeader = () => {
                 <div>
                   <Botom name="Contactame"/>
                 </div>
-                
             </div>
           </div>
         </div>
