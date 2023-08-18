@@ -96,14 +96,13 @@ function App() {
                             <a href="" className="bg-red-200 py-1 px-2 rounded border border-red-500">
                                 Mira mis proyectos
                             </a>
-                            <a href="https://carloscriptos.vercel.app/" target="_blank" 
-                            className="py-1 px-2 rounded border border-red-400">
+                            <a href="https://carloscriptos.vercel.app/" className="py-1 px-2 rounded border border-red-400">
                                 Visita el proyecto ListaCrips
                             </a>
                         </div>
                     </div>
                     <div>
-                        <img className="rounded-sm my-9 h-60" src={ListaCrips} alt="ListaCrips" />
+                        <img className="rounded-sm my-9 h-60"  alt="ListaCrips" />
                     </div>
                 </div>
             </div>
