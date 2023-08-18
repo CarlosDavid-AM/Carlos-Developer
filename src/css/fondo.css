@@ -1,0 +1,4 @@
+.fondo {
+  background: no-repeat center url(/src/img/svg/fondo.svg);
+  background-size: cover;
+}

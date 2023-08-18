@@ -4,8 +4,8 @@ import Logo from "../img/Logo.png"
 const MainHeader = () => {
   return(
     <div>
-      <div className="relative">
-        <div className="fixed z-20 w-full">
+      <div>
+        <div className="z-20  w-full">
           <div className="bg-gray-50 py-3">
             <div className="flex container mx-auto justify-between items-center">
                 <div>
