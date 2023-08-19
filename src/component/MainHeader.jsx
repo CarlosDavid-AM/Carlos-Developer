@@ -5,7 +5,7 @@ const MainHeader = () => {
   return(
     <div>
       <div>
-        <div className="z-20  w-full">
+        <div className="fixed z-20  w-full">
           <div className="bg-gray-50 py-3">
             <div className="flex container mx-auto justify-between items-center">
                 <div>
