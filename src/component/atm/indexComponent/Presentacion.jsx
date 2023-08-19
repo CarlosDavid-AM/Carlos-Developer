@@ -8,7 +8,7 @@ const Presentacion = () => {
         <div className="container flex justify-between mx-auto items-center">
           <div className="w-1/2 tracking-wide">
             <h1 className="text-3xl font-medium">
-                Carlos David programador Front End ++
+                Carlos David programador Front End
             </h1>
             <div className="mt-9">
               <a href="">
