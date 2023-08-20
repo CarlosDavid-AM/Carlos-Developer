@@ -14,7 +14,7 @@ const SobreMi = () => {
 
           <div className="w-1/2 pr-48 flex flex-col gap-y-6">
             <h2 className="font-medium text-xl">
-              Un poco sobre 
+              Un poco sobre mi
             </h2>
             <p className="text-sm">
               Soy un apasionado programador front-end con experiencia en HTML, CSS y JavaScript. 

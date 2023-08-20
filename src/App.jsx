@@ -6,6 +6,7 @@ import formacion from "./img/Formacion.png"
 import ListaCrips from "./component/atm/indexComponent/ListaCrips"
 import Presentacion from "./component/atm/indexComponent/Presentacion"
 import SobreMi from "./component/atm/indexComponent/SobreMi"
+import MainFooter from "./component/MainFooter"
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
 
       {/* Primera parte del body 4/4 */}
       <SobreMi />
+
+      {/* Footer */}
+      <MainFooter />
     </>
   )
 }
