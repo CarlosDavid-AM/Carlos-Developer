@@ -1,5 +1,6 @@
 import Botom from "./atm/Botom"
 import Logo from "../img/Logo.png"
+import { Link, NavLink } from "react-router-dom"
 
 const MainHeader = () => {
   return(
@@ -12,9 +13,9 @@ const MainHeader = () => {
                     <img src={Logo} alt="Logo" className="h-7" />
                 </div>
                 <div className="flex gap-x-4 text-sm">
-                    <a href="/">Inicio</a>
-                    <a href="/proyectos.html">Proyectos Web</a>
-                    <a href="/acercaDeMi.html">Acerca de Mi</a>
+                    <NavLink to="/">Inicio</NavLink>
+                    <Link to="/proyects">Proyectos Web</Link>
+                    <Link to="/acercaDeMi">Acerca de Mi</Link>
                 </div>
                 <div>
                   <Botom name="Contactame"/>

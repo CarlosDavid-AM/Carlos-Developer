@@ -56,7 +56,7 @@ const MainFooter = () => {
             </div>
             <div>
               <div>Contactame</div>
-              <div>
+              <div className="flex">
                 <img className="h-8" src={Telefono} alt="telefono"/>
                 <span>+51 933 376 104</span>
               </div>
