@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import MainHeader from "../component/MainHeader"
 import Botom from "../component/atm/Botom"
+import Proyecto1 from "../component/atm/proyetsComponent/Proyecto1"
 
 const Proyects = () => {
   return(
@@ -22,6 +23,10 @@ const Proyects = () => {
       </div>
 
       {/* Seccion de proyectos */}
+      <div className="container mx-auto">
+        {/* Proyecto 1 */}
+        <Proyecto1 />
+      </div>
     </>
   )
 }
