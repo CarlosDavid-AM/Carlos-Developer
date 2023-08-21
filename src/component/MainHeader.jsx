@@ -10,7 +10,7 @@ const MainHeader = () => {
           <div className="bg-gray-50 py-3">
             <div className="flex container mx-auto justify-between items-center">
                 <div>
-                    <img src={Logo} alt="Logo" className="h-7" />
+                    <Link to="/"><img src={Logo} alt="Logo" className="h-7" /></Link>
                 </div>
                 <div className="flex gap-x-4 text-sm">
                     <NavLink to="/">Inicio</NavLink>
@@ -18,7 +18,7 @@ const MainHeader = () => {
                     <Link to="/acercaDeMi">Acerca de Mi</Link>
                 </div>
                 <div>
-                  <Botom name="Contactame"/>
+                  <Link to="/contacto"><Botom name="Contactame"/></Link>
                 </div>
             </div>
           </div>

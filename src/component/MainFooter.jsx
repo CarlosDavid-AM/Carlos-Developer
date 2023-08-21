@@ -4,6 +4,7 @@ import Linkedin from "../img/svg/linkedin.svg"
 import Facebook from "../img/svg/facebook.svg"
 import Whatsapp from "../img/svg/whatsapp.svg"
 import Telefono from "../img/telefono.png"
+import { Link } from "react-router-dom"
 
 const MainFooter = () => {
   return(
@@ -46,16 +47,16 @@ const MainFooter = () => {
           <div className="flex flex-col gap-y-9 text-sm">
             <div className="flex flex-col gap-y-6">
               <div className="flex">
-                <a href="">Inicio</a>
-                <a href="" className="pl-20">Acerca de mi</a>
+                <Link to="/"><a href="">Inicio</a></Link>
+                <Link to="/acercaDeMi"><a href="" className="pl-20">Acerca de mi</a></Link>
               </div>
               <div className="flex">
-                <a href="">Proyectos</a>
-                <a href="" class="pl-12" >Contactame</a>
+                <Link to="/proyects"><a href="">Proyectos</a></Link>
+                <Link to="/contacto"><a href="" class="pl-12" >Contactame</a></Link>
               </div>
             </div>
             <div>
-              <div>Contactame</div>
+              <div>Escribame al:</div>
               <div className="flex">
                 <img className="h-8" src={Telefono} alt="telefono"/>
                 <span>+51 933 376 104</span>

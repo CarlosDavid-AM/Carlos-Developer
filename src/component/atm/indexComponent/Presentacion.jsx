@@ -1,6 +1,7 @@
 import Botom from "../../../component/atm/Botom"
 import user from "../../../img/user.jpg"
 import "../../../css/fondo.css"
+import { Link } from "react-router-dom"
 
 const Presentacion = () => {
   return (
@@ -12,7 +13,7 @@ const Presentacion = () => {
             </h1>
             <div className="mt-9">
               <a href="">
-                <Botom name="Mira mis proyectos web"/>
+                <Link to="/proyects"><Botom name="Mira mis proyectos web"/></Link>
               </a>
             </div>
           </div>
