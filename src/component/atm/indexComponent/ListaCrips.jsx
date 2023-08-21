@@ -16,7 +16,8 @@ const ListaCrips = () => {
                             ListaCrips
                         </h1>
                         <p className="pr-14">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati minima esse voluptas modi aliquam incidunt totam rem ex suscipit, qui mollitia ratione aperiam perferendis amet quos omnis repudiandae doloremque! Similique!
+                          Una plataforma que muestra información en tiempo real sobre criptomonedas líderes, 
+                          incluyendo precios actualizados, cambios porcentuales y más, utilizando datos de APIs.
                         </p>
                         <div className="flex gap-x-6">
                             <a href="" className="bg-red-200 py-1 px-2 rounded border border-red-500">

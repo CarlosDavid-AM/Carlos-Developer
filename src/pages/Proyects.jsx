@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import MainHeader from "../component/MainHeader"
 import Botom from "../component/atm/Botom"
 import Proyecto1 from "../component/atm/proyetsComponent/Proyecto1"
+import Proyecto2 from "../component/atm/proyetsComponent/Proyecto2"
 
 const Proyects = () => {
   return(
@@ -26,7 +27,14 @@ const Proyects = () => {
       <div className="container mx-auto">
         {/* Proyecto 1 */}
         <Proyecto1 />
+
+        {/* Proyecto 2 y 3 */}
+        <div className="flex justify-between mt-20">
+          {/* Proyecto 2 */}
+          <Proyecto2/>
+        </div>
       </div>
+
     </>
   )
 }
