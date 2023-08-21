@@ -3,6 +3,8 @@ import MainHeader from "../component/MainHeader"
 import Botom from "../component/atm/Botom"
 import Proyecto1 from "../component/atm/proyetsComponent/Proyecto1"
 import Proyecto2 from "../component/atm/proyetsComponent/Proyecto2"
+import Proyecto3 from "../component/atm/proyetsComponent/Proyecto3"
+import MainFooter from "../component/MainFooter"
 
 const Proyects = () => {
   return(
@@ -30,11 +32,16 @@ const Proyects = () => {
 
         {/* Proyecto 2 y 3 */}
         <div className="flex justify-between mt-20">
+
           {/* Proyecto 2 */}
           <Proyecto2/>
+
+          {/* Proyecto 3 */}
+          <Proyecto3/>
         </div>
       </div>
 
+      <MainFooter />
     </>
   )
 }
