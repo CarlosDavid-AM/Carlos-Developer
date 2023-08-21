@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import MainHeader from "../component/MainHeader"
 import Botom from "../component/atm/Botom"
 import AcercaDeMi from "../component/atm/deMiComponent/AcercaDeMi"
+import Tegnologias from "../component/atm/deMiComponent/Tegnologias"
 
 const DeMi = () => {
   return(
@@ -31,6 +32,9 @@ const DeMi = () => {
 
         {/* Parte 2 */}
         <AcercaDeMi />
+
+        {/* Parte 3 */}
+        <Tegnologias />
       </div>
     </>
   )
