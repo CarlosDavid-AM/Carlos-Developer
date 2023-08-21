@@ -1,3 +1,5 @@
+import pagina from "../../../img/proyects/PW.png"
+
 const Proyecto1 = () => {
   return(
     <div className="flex justify-between items-center">
@@ -19,7 +21,7 @@ const Proyecto1 = () => {
         </a>
       </div>
       <div className="w-1/2">
-        <img src="" alt="" className="h-52 mx-auto mt-9 border rounded-sm"/>
+        <img src={pagina} alt="Mi Pagina Web" className="h-52 mx-auto mt-9 border rounded-sm"/>
       </div>
     </div>
   )
