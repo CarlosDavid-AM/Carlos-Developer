@@ -3,6 +3,7 @@ import MainHeader from "../component/MainHeader"
 import Botom from "../component/atm/Botom"
 import AcercaDeMi from "../component/atm/deMiComponent/AcercaDeMi"
 import Tegnologias from "../component/atm/deMiComponent/Tegnologias"
+import MainFooter from "../component/MainFooter"
 
 const DeMi = () => {
   return(
@@ -35,6 +36,8 @@ const DeMi = () => {
 
         {/* Parte 3 */}
         <Tegnologias />
+
+        <MainFooter/>
       </div>
     </>
   )

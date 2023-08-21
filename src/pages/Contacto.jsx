@@ -1,6 +1,10 @@
+import MainHeader from "../component/MainHeader"
+
 const Contacto = () => {
   return(
-    <h1>Contacto</h1>
+    <div>
+      <MainHeader/>
+    </div>
   )
 }
 
