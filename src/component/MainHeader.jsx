@@ -15,7 +15,7 @@ const MainHeader = () => {
                 <div className="flex gap-x-4 text-sm">
                     <NavLink to="/">Inicio</NavLink>
                     <Link to="/proyects">Proyectos Web</Link>
-                    <Link to="/acercaDeMi">Acerca de Mi</Link>
+                    <Link to="/de-mi">Acerca de Mi</Link>
                 </div>
                 <div>
                   <Link to="/contacto"><Botom name="Contactame"/></Link>
