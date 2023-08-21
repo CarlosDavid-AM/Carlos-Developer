@@ -1,4 +1,4 @@
-import pagina from "../../../img/proyects/PW.png"
+import pagina from "../../../img/proyects/pagina.jpg"
 
 const Proyecto1 = () => {
   return(
