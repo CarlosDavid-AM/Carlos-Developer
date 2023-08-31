@@ -16,11 +16,11 @@ const MainFooter = () => {
               Trabajemos juntos y creemos un nuevo caso de éxito
             </h1>
             <div className="pt-9 flex gap-x-9 items-center">
-              <Botom name="Contactame" />
+              <Link to="/contacto"><Botom name="Contactame" /></Link>
               <div className="flex items-center gap-x-2">
-                <a href="" className="font-light">
-                  Mira mis proyectos
-                </a>
+                <Link to="/proyects" className="font-light">
+                  Mira mis Proyectos
+                </Link>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
