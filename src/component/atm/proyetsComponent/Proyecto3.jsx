@@ -1,5 +1,6 @@
 import GogGall from "../../../img/proyects/galeriaDog.jpg"
-import Botom from "../Botom"
+import BtnRepo from "../BtnRepo"
+import BtnVisite from "../BtnVisite"
 
 const Proyecto3 = () => {
   return(
@@ -13,13 +14,8 @@ const Proyecto3 = () => {
           Navega por una colección visualmente atractiva de fotos de perros que te alegrarán el día.
         </p>
         <div className="flex gap-x-6 items-center">
-          <a href="" target="_blank">
-            <Botom name="Visita el sitio web"/>
-          </a>
-          <a href="https://github.com/CarlosDavid-AM/Galeria-de-Perros" target="_blank" 
-          className="bg-orange-100 py-1 px-2 rounded border border-orange-500">
-            Ver el repositorio
-          </a>
+          <BtnVisite pagina="" />
+          <BtnRepo repositorio="https://github.com/CarlosDavid-AM/Galeria-de-Perros"/>
         </div>
       </div>
     </div>

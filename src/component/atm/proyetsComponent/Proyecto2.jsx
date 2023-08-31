@@ -1,5 +1,6 @@
 import Crips from "../../../img/proyects/Crips.jpg"
-import Botom from "../Botom"
+import BtnRepo from "../BtnRepo"
+import BtnVisite from "../BtnVisite"
 
 const Proyecto2 = () => {
   return(
@@ -12,13 +13,8 @@ const Proyecto2 = () => {
           incluyendo precios actualizados, cambios porcentuales y más, utilizando datos de APIs.
         </p>
         <div className="flex gap-x-6 items-center">
-          <a href="https://carloscriptos.vercel.app/" target="_blank">
-            <Botom name="Visita el sitio web"/>
-          </a>
-          <a href="https://github.com/CarlosDavid-AM/ListaCrips" target="_blank" 
-          className="bg-orange-100 py-1 px-2 rounded border border-orange-500">
-            Ver el repositorio
-          </a>
+          <BtnVisite pagina="https://carloscriptos.vercel.app/" />
+          <BtnRepo repositorio="https://github.com/CarlosDavid-AM/ListaCrips"/>
         </div>
       </div>
     </div>
