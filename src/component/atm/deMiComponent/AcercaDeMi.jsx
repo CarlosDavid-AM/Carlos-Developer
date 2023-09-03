@@ -1,13 +1,13 @@
 const AcercaDeMi = () => {
   return(
     <div>
-      <div className="container flex justify-betweens mt-44 gap-x-4">
-        <div>
-          <div className="bg-green-400 w-44 h-52 rounded-md ml-60">
+      <div className="container flex flex-col lg:flex-row justify-betweens mt-44 gap-x-4">
+        <div className="mx-auto lg:mx-0">
+          <div className="bg-green-400 w-44 h-52 rounded-md mb-9 lg:mb-0 lg:ml-60">
             foto 
           </div>
         </div>
-        <div className="h-52 bg-gray-200 container mx-auto">
+        <div className="h-80 lg:h-52 bg-gray-200 container mx-auto">
           <div>
             <h1 className="mt-2 font-medium">
               Un poco sobre mi

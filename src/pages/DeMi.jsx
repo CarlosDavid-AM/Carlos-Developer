@@ -11,6 +11,7 @@ const DeMi = () => {
       <div>
         <MainHeader />
 
+    
         {/* Parte 1 */}
         <div className="fondo py-20">
           <div className="container mx-auto text-center">
