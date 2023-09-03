@@ -24,7 +24,7 @@ function App() {
                       ¿Qué me hace diferente?
                   </h2>
               </div>
-              <div className="flex text-center gap-x-6 my-10">
+              <div className="flex flex-col lg:flex-row text-center gap-x-6 my-10">
                   <div className="flex-1 flex flex-col items-center">
                       <img className="h-12" src={proyectos} alt="Proyectos"/>
                       <h3 className="pt-6 pb-3 font-medium">
@@ -35,7 +35,7 @@ function App() {
                           y una aplicación web de lista de tareas con HTML, CSS y JavaScript.
                       </p>
                   </div>
-                  <div className="flex-1 flex flex-col items-center">
+                  <div className="flex-1 flex flex-col items-center pt-10 lg:pt-0">
                       <img className="h-12" src={conosimientos} alt="Conosimientos"/>
                       <h3 className="pt-6 pb-3 font-medium">
                           Conocimientos y habilidades técnicas:
@@ -46,7 +46,7 @@ function App() {
                         Uso efectivo de herramientas como Git y GitHub para el flujo de trabajo de desarrollo.
                       </p>
                   </div>
-                  <div className="flex-1 flex flex-col items-center">
+                  <div className="flex-1 flex flex-col items-center pt-10 lg:pt-0">
                       <img className="h-12" src={formacion} alt="Formacion"/>
                       <h3 className="pt-6 pb-3 font-medium">
                           Formación académica y cursos

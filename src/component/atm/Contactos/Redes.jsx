@@ -12,7 +12,7 @@ const Redes = () => {
         <a href="https://www.linkedin.com/in/carlos-david-apolaya-mendoza-a30122219?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BavHozhMVRIyBKbLODyZK3A%3D%3D"
         target="_blank">
           <img src={Linkedin} className="h-6" alt="linkedin" />
-          </a>
+        </a>
         <a href="https://www.facebook.com/david.apolaya.526/" target="_blank">
           <img src={Facebook} className="h-7" alt="facebook" />
         </a>

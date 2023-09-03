@@ -10,12 +10,12 @@ const MainFooter = () => {
   return(
     <div>
       <div className="-mb-60 relative z-10">
-        <div className="fondo m-14 py-40 rounded-lg">
+        <div className="fondo mx-6 lg:m-14 py-20 lg:py-40 rounded-lg">
           <div className="text-center flex flex-col items-center">
-            <h1 className="font-semibold text-2xl">
+            <h1 className="font-medium lg:font-semibold text-2xl px-6 lg:px-0">
               Trabajemos juntos y creemos un nuevo caso de éxito
             </h1>
-            <div className="pt-9 flex gap-x-9 items-center">
+            <div className="pt-9 flex flex-col lg:flex-row gap-y-9 gap-x-9 items-center">
               <Link to="/contacto"><Botom name="Contactame" /></Link>
               <div className="flex items-center gap-x-2">
                 <Link to="/proyects" className="font-light">
@@ -31,16 +31,23 @@ const MainFooter = () => {
       </div>
 
       <div className="bg-gray-100 pt-72 relative z-0">
-        <div className="container mx-auto pr-16 flex justify-between">
+        <div className="container mx-auto pr-16 pb-16 lg:pb-0 flex flex-col lg:flex-row justify-between">
           <div className="flex flex-col gap-y-9">
             <div>
-              <img className="h-8" src={Logo} alt="Logo"/>
+              <img className="h-8 mt-10 lg:mt-0" src={Logo} alt="Logo"/>
             </div>
             <div className="flex justify-between">
               <div className="flex justify-between py-12 gap-x-3 items-center">
-                <img class="h-6" src={Linkedin} alt="linkedin"/>
-                <img class="h-7" src={Facebook} alt="facebook"/>
-                <img class="h-8" src={Whatsapp} alt="whatsapp"/>
+                <a href="https://www.linkedin.com/in/carlos-david-apolaya-mendoza-a30122219?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BavHozhMVRIyBKbLODyZK3A%3D%3D"
+                target="_blank">
+                  <img src={Linkedin} className="h-6" alt="linkedin" />
+                </a>
+                <a href="https://www.facebook.com/david.apolaya.526/" target="_blank">
+                  <img src={Facebook} className="h-7" alt="facebook" />
+                </a>
+                <a href="tel:933376104">
+                  <img src={Whatsapp} className="h-8" alt="whatsapp" />
+                </a>
               </div>
             </div>
           </div>
