@@ -8,7 +8,7 @@ const Proyecto1 = () => {
         <div><img src={pagina} alt="Mi pagina Web" className="h-44 w-full border rounded-sm"/></div>
         <div className="mt-9 p-3">
           <h2 className="font-semibold text-xl">Mi Pagina Web</h2>
-          <p className="mt-9 mb-6 w-full lg:w-96">
+          <p className="font-light lg:font-normal mt-9 mb-6 w-full lg:w-96">
             Descubre mi trayectoria y habilidades a través de una variedad de proyectos que he creado. 
             Desde aplicaciones web interactivas hasta soluciones elegantes de diseño, 
             cada proyecto refleja mi pasión por el desarrollo front-end. 

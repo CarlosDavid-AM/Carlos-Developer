@@ -2,7 +2,7 @@ import Gmail from "../../../img/gmail.png"
 
 const Correo = () => {
   return(
-    <div>
+    <div className="mt-16 lg:mt-0">
       <h2 className="font-medium text-xl">
       Correo Electronico
       </h2>
