@@ -17,8 +17,8 @@ const Proyects = () => {
               Explora mis proyectos web
             </h1>
             <div className="mt-14">
-              <Link to="/proyects">
-                <Botom name="Mira mis proyectos web" />
+              <Link to="/de-mi">
+                <Botom name="Conoce mas sobre mi" />
               </Link>
             </div>
           </div>
@@ -31,13 +31,17 @@ const Proyects = () => {
         <Proyecto1 />
 
         {/* Proyecto 2 y 3 */}
-        <div className="flex justify-between mt-20">
+        <div className="flex flex-col lg:flex-row justify-between mt-20">
 
           {/* Proyecto 2 */}
-          <Proyecto2/>
+          <div className="py-10 lg:py-0">
+            <Proyecto2/>
+          </div>
 
           {/* Proyecto 3 */}
-          <Proyecto3/>
+          <div className="py-10 lg:py-0">
+            <Proyecto3/>
+          </div>
         </div>
       </div>
 
