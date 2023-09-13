@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Crips from "../../../img/proyects/Crips.jpg"
 import BtnRepo from "../BtnRepo"
 import BtnVisite from "../BtnVisite"
@@ -21,25 +22,20 @@ const ListaCrips = () => {
                   Una plataforma que muestra información en tiempo real sobre criptomonedas líderes, 
                   incluyendo precios actualizados, cambios porcentuales y más, utilizando datos de APIs.
                 </p>
-                <div className="flex justify-center py-6 gap-x-6">
-                  <BtnVisite pagina="https://carloscriptos.vercel.app/" />
-                  <BtnRepo repositorio="https://github.com/CarlosDavid-AM/ListaCrips"/>
+                <div className="py-6 gap-x-6">
+                  <div className="flex justify-center py-6 gap-x-6">
+                    <BtnVisite pagina="https://carloscriptos.vercel.app/" />
+                    <BtnRepo repositorio="https://github.com/CarlosDavid-AM/ListaCrips"/>
+                  </div>
+                  <Link to="/proyects" className="ml-16 py-1 px-2 rounded border border-orange-400" >
+                    Ver todos los proyectos
+                  </Link>
                 </div>
-              </div>
-              <div className="flex pt-4 gap-x-10 justify-center">
-              <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
-              <div class="w-3 h-3 bg-gray-300 rounded-full"></div>
-              <div class="w-3 h-3 bg-gray-300 rounded-full"></div>
               </div>
             </div>
           </div>
 
           {/* Escritorio */}
-            <button className="hidden lg:block">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-              </svg>
-            </button>
             <div className="hidden lg:block">
                 <div className="flex  py-6 items-center pl-7">
                     <div className="flex flex-col text-sm w-1/2 gap-y-4">
@@ -53,6 +49,9 @@ const ListaCrips = () => {
                         <div className="flex gap-x-6">
                           <BtnVisite pagina="https://carloscriptos.vercel.app/" />
                           <BtnRepo repositorio="https://github.com/CarlosDavid-AM/ListaCrips"/>
+                          <Link to="/proyects" className="py-1 px-2 rounded border border-orange-400" >
+                            Ver todos los proyectos
+                          </Link>
                         </div>
                     </div>
                     <div>
@@ -60,11 +59,6 @@ const ListaCrips = () => {
                     </div>
                 </div>
             </div>
-            <button className="hidden lg:block">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-            </button>
         </div>
       </div>
   )
